@@ -58,6 +58,10 @@ table {
   font-weight: 400;
 }
 
+button {
+  cursor: pointer;
+}
+
 .container {
   background-color: black;
   height: 100%;

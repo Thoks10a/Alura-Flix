@@ -1,0 +1,409 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;800&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  font-family: 'Inter',sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  font-family: 'Inter',sans-serif;
+  font-weight: 400;
+}
+
+.first-div {
+  background-image: url("./img/Background.png");
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  height: auto;
+  width: 100%;
+}
+
+.first-div-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+  color: white;
+}
+
+.first-div-child img {
+  height: 50%;
+  width: 50%;
+  margin: 5px 0 5px 0;
+}
+
+.first-div-child h1, .first-div-child button, .first-div-child p {
+  margin: 5px 0 5px 0;
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.first-div-child p {
+  color: gray;
+}
+
+.first-div-child h1 {
+  font-size: 27px;
+}
+
+button {
+  background: #167BF7;
+  border: none;
+  padding: 10px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+button:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  background: #1469d1;
+}
+
+.button-child-2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 0.5px solid white;
+  padding: 10px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: white;
+}
+
+.button-child-2:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  background: #9c9c9c;
+}
+
+.div-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: auto;
+  width: 100%;
+}
+
+.div-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 45px 25px 45px 25px;
+}
+
+.div-list ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.div-list ul li * {
+  margin: 10px 0 10px 0;
+}
+
+.div-list ul img {
+  height: 70%;
+  width: 70%;
+  margin: 0 10px 0 10px;
+}
+
+.div-list ul button {
+  border-radius: 8px;
+}
+
+.div-list ul p {
+  color: gray;
+}
+
+.div-list h1 {
+  font-size: 28px;
+}
+
+.img-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.img-2 {
+  display: none;
+}
+
+.div-titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 28px;
+}
+
+.dispositivos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.dispositivos ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.dispositivos ul img {
+  height: auto;
+  width: 250px;
+}
+
+.div-footer {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 25px;
+}
+
+.div-footer img {
+  margin-bottom: 25px;
+}
+
+.div-footer ul {
+  margin: 25px 0 25px 0;
+}
+
+.div-footer ul li {
+  margin: 25px 0 25px 0;
+}
+
+.div-footer p {
+  text-align: center;
+  color: grey;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .first-div .first-div-child {
+    height: auto;
+    width: 50%;
+  }
+  .first-div img {
+    height: 25%;
+    width: 25%;
+  }
+  .div-list ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .div-list ul img {
+    height: 50%;
+    width: 50%;
+  }
+  .img-1 {
+    display: none;
+  }
+  .img-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .div-footer ul {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .div-footer ul li {
+    margin: 10px 25px 10px 25px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .first-div .first-div-child {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100vh;
+    width: 50%;
+  }
+  .first-div img {
+    height: 15%;
+    width: 50%;
+  }
+  .dispositivos {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .div-list h1 {
+    font-size: 48px;
+  }
+  .div-titulo {
+    font-size: 48px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
